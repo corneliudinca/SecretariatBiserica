@@ -30,30 +30,28 @@
 			<div id="navbarCollapse" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="dropdown active">
-						<a data-toggle="tab" href="#biserici"><span class="glyphicon glyphicon-list"></span> Biserici</a>
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span> Biserici <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a data-toggle="tab" href="#churches">Biserici</a></li>
+							<li><a data-toggle="tab" href="#propertiesAndGoods">Proprietati si bunuri</a></li>
+						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-user"></span> Persoane <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Inbox</a></li>
-							<li><a href="#">Drafts</a></li>
+							<li><a data-toggle="tab" href="#persons">Persoane</a></li>
+							<li><a data-toggle="tab" href="#members">Membri</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-file"></span> Registre <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a data-toggle="tab" href="#registrePersoane">Registre persoane</a></li>
-							<li><a data-toggle="tab" href="#registreFamilii">Registre familii</a></li>
+							<li><a data-toggle="tab" href="#personsRegistry">Registre persoane</a></li>
+							<li><a data-toggle="tab" href="#familiesRegistry">Registre familii</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-file"></span> Rapoarte <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Inbox</a></li>
-							<li><a href="#">Drafts</a></li>
-						</ul>
-					</li>
-					<li><a data-toggle="tab" href="#setari"><span class="glyphicon glyphicon-wrench"></span> Setari</a></li>
+					<li><a data-toggle="tab" href="#reports"><span class="glyphicon glyphicon-file"></span> Rapoarte</a></li>
+					<li><a data-toggle="tab" href="#settings"><span class="glyphicon glyphicon-wrench"></span> Setari</a></li>
 				</ul>
 			</div>
 		</div>
@@ -61,19 +59,32 @@
 	<div class="header-placeholder"></div>
 	<div role="main">
 		<div class="tab-content container">
-			<div id="biserici" class="tab-pane fade in active">
-				<h3>Cladiri si proprietati</h3>
+			<div id="churches" class="tab-pane fade in active">
+				<h3>Biserici si filii</h3>
 			</div>
-			<div id="setari" class="tab-pane fade">
-				<h3>Setari</h3>
-				<p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+			<div id="propertiesAndGoods" class="tab-pane fade">
+				<h3>Proprietati si bunuri</h3>
 			</div>
-			<div id="registrePersoane" class="tab-pane fade">
+			<div id="persons" class="tab-pane fade">
+				<h3>Persoane</h3>
+			</div>
+			<div id="members" class="tab-pane fade">
+				<h3>Membri</h3>
+			</div>
+			<div id="personsRegistry" class="tab-pane fade">
 				<h3>Registre persoane</h3>
 				<p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
 			</div>
-			<div id="registreFamilii" class="tab-pane fade">
+			<div id="familiesRegistry" class="tab-pane fade">
 				<h3>Registre familii</h3>
+				<p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+			</div>
+			<div id="reports" class="tab-pane fade">
+				<h3>Rapoarte</h3>
+				<p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+			</div>
+			<div id="settings" class="tab-pane fade">
+				<h3>Setari</h3>
 				<p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
 			</div>
 		</div>
